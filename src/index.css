@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -8,4 +9,66 @@
     0 0 10px #0ff,
     0 0 20px #0ff,
     0 0 40px #0ff;
+}
+@layer base {
+  :root { 
+    --background: #0f172a;
+    --foreground: #f8fafc; 
+    --card: #1e293b; 
+    --card-foreground: #f8fafc;
+    --primary: #38bdf8; 
+    --primary-foreground: #020617; 
+    --secondary: #334155; 
+    --secondary-foreground: #f8fafc;
+    --muted: #334155;
+    --muted-foreground: #94a3b8; 
+    --accent: #475569;
+    --accent-foreground: #f8fafc;
+    --border: #334155;
+  }
+
+  .light { /* Light Theme */
+    --background: #f8fafc;
+    --foreground: #0f172a;
+    --card: #ffffff;
+    --card-foreground: #0f172a;
+    --primary: #0ea5e9;
+    --primary-foreground: #ffffff;
+    --secondary: #e2e8f0;
+    --secondary-foreground: #0f172a;
+    --muted: #f1f5f9;
+    --muted-foreground: #64748b;
+    --accent: #e2e8f0;
+    --accent-foreground: #0f172a;
+    --border: #e2e8f0;
+  }
+}
+
+body {
+  @apply bg-background text-foreground;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 20px;
+  border: 3px solid var(--background);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--accent);
 }

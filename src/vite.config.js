@@ -3,5 +3,9 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: '/portfolio-site/', 
-  plugins: [react()]
+  plugins: [react()],
+  server: {
+    allowedHosts: ['localhost', '*'],
+    host: true,
+  }
 })
