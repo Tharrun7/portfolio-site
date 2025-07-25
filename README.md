@@ -1,4 +1,4 @@
-# 🚀 T.S Tharrun | Portfolio
+#  T.S Tharrun | Portfolio
 
 Welcome to the source code of my animated cyberpunk-themed developer portfolio built with **React**, **Tailwind CSS**, **Framer Motion**, and **Firebase Hosting**.  
 This portfolio showcases my projects, skills, and experience in **Blockchain Development**, **Web3**, and more.
@@ -21,13 +21,21 @@ This portfolio showcases my projects, skills, and experience in **Blockchain Dev
 ## 📁 Folder Structure
 
 tharrun-portfolio/
+
 ├── public/ # Static files (images, favicon, etc.)
+
 ├── src/
+
 │ ├── App.jsx # Main component logic
+
 │ ├── main.jsx # React entry point
+
 │ └── index.css # Tailwind + custom styles
+
 ├── dist/ # Build output (auto-generated)
+
 ├── index.html # Entry HTML
+
 └── firebase.json # Firebase Hosting config
 
 ---
