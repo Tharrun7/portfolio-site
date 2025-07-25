@@ -60,7 +60,7 @@ firebase deploy
 
 📬 Contact:
 
-📧 Email: tharrunts7@gmail.com
+📧 Email:tharrunts7@gmail.com
 
 💼 [LinkedIn](https://www.linkedin.com/in/t-s-tharrun-554869320/)
 
