@@ -53,9 +53,10 @@ npm run build
 
 # Deploy to Firebase
 firebase deploy
+```
 🔗 Live Site
 
-🌐 Visit my Portfolio[(https://tharrun-portfolio.web.app])
+🌐 Visit my Portfolio ([https://tharrun-portfolio.web.app])
 
 📬 Contact
 
