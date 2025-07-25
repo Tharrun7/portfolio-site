@@ -58,11 +58,15 @@ firebase deploy
 
 🌐 [Visit my Portfolio](https://tharrun-portfolio.web.app)
 
-📬 Contact
+📬 Contact:
 
-📧 Email: tharrunts7@gmail.com
-💼 LinkedIn
-🧑‍💻 GitHub
+📧 [Email:](tharrunts7@gmail.com)
+
+💼 [LinkedIn](https://www.linkedin.com/in/t-s-tharrun-554869320/)
+
+🧑‍💻 [GitHub](https://github.com/Tharrun7)
+
+
 📄 License
 
 This project is open-source and free to use for learning or inspiration.
